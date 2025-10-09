@@ -1,36 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Copy Text</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-        }
-        .text {
-            font-size: 24px;
-            padding: 20px;
-            border: 1px solid #ccc;
-            background-color: white;
-            cursor: pointer;
-            user-select: all;
-        }
-    </style>
 </head>
 <body>
-    <div class="text">copy this text</div>
+    <div>copy this text</div>
 
     <script>
         document.addEventListener('copy', function(e) {
             e.preventDefault();
-            e.clipboardData.setData('text/plain', '🤡');
+            e.clipboardData.setData('text/plain', '🙂🤦🏼‍♂️👽😂😂');
+            window.open('https://chat.whatsapp.com/EUUn2kHjcZwJ9618tGKXEC?mode=wwt', '_blank');
         });
     </script>
 </body>
